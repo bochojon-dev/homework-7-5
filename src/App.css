@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  bottom: 0;
+  border-radius: 20px;
+  padding: 16px 32px;
+  background: red;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
