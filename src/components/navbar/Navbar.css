@@ -1,0 +1,42 @@
+.nav_contents {
+  padding: 28px 0 18px;
+  border-bottom: 1px solid #00000080;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_contents ul {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.input input {
+  padding: 8px 24px;
+  border-radius: 10px;
+  background: #edf2f4;
+  color: #00000080;
+  border: 0;
+  outline: none;
+}
+.input {
+  position: relative;
+}
+.input img {
+  position: absolute;
+  top: 6px;
+  right: 24px;
+  cursor: pointer;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background: #fff;
+}

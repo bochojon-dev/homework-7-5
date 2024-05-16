@@ -16,9 +16,19 @@ a {
 button {
   bottom: 0;
   border-radius: 20px;
-  padding: 16px 32px;
+  padding: 14px 36px;
   background: red;
   color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  transform: scale(0.95);
 }
 ul {
   list-style-type: none;

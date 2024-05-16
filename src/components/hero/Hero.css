@@ -1,0 +1,28 @@
+.hero {
+  padding: 180px 0 190px;
+}
+.hero_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  box-sizing: content-box;
+}
+.hero_texts p {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 73.15px;
+}
+.hero_texts h3 {
+  font-size: 64px;
+  font-weight: 8-700;
+  color: #f42d2d;
+}
+.hero_texts h2 {
+  font-size: 64px;
+  font-weight: 8-700;
+  color: #ff0000;
+  line-height: 100px;
+}
+.hero_texts button {
+  margin-top: 24px;
+}
