@@ -1,0 +1,22 @@
+.shop_contents {
+  background: #edf2f4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  z-index: 50 !important;
+}
+.shop {
+  position: relative;
+  padding: 150px 0;
+}
+.shop_texts {
+  z-index: 60;
+}
+.square {
+  position: absolute;
+  top: 44px;
+  right: 100px;
+  z-index: -1 !important;
+}

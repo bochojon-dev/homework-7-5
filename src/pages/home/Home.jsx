@@ -3,6 +3,8 @@ import Navbar from "../../components/navbar/Navbar";
 import Hero from "../../components/hero/Hero";
 import Products from "../../components/products/Products";
 import axios from "../../api";
+import About from "../../components/about/About";
+import Shop from "../../components/shop/Shop";
 
 const Home = () => {
   const [products, setProducts] = useState(null);
@@ -17,6 +19,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Products data={products} />
+      <About />
+      <Shop />
     </div>
   );
 };
