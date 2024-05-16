@@ -1,0 +1,28 @@
+.icon {
+  width: 320px;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.choose_contents {
+  text-align: center;
+}
+.icon h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+}
+.icon p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+}
+.choose_contents h4 {
+  padding: 36px 0 150px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import search from "../../assets/search.svg";
 import "../navbar/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,9 @@ const Navbar = () => {
             <li>Blog</li>
           </ul>
           <div className="logo">
-            <img src={logo} alt="logo" />
+            <Link to={"/"}>
+              <img src={logo} alt="logo" />
+            </Link>
           </div>
           <div className="search">
             <ul>

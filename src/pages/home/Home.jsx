@@ -5,6 +5,7 @@ import Products from "../../components/products/Products";
 import axios from "../../api";
 import About from "../../components/about/About";
 import Shop from "../../components/shop/Shop";
+import Choose from "../../components/choose/Choose";
 
 const Home = () => {
   const [products, setProducts] = useState(null);
@@ -21,6 +22,7 @@ const Home = () => {
       <Products data={products} />
       <About />
       <Shop />
+      <Choose />
     </div>
   );
 };

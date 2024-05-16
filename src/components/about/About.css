@@ -26,3 +26,11 @@
   color: #d62828;
   width: 880px;
 }
+.shop_texts h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: red;
+  width: 570px;
+}
